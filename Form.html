@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+</head>
+<body>
+    <form action="">
+        <h1>Create Event</h1>
+        <h2>Contact Info</h2>
+        <p>Name: <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                <input type="radio" name="gender" id=""> Male
+                <br>  
+                <input type="radio" name="gender" id=""> Female
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="Address" id="Address" cols="100" rows="5"></textarea></p>
+        <p>Email: <input type="email" name="email" id="email" required></p>
+        <p>PinCode: <input type="number" name="PinCode" id="PinCode"></p>
+
+        <hr>
+        <h2>Event Info<br></h2>
+        <p>
+            Type of event <input  name="Event type" id="eventtype">
+        </p>
+        <p>Site:
+            <select name="site" id="site">
+                <option value="">--Select a site--</option>
+                <option value="Ownplace">Own Place</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Goa">Goa</option>
+            </select>
+        </p>
+        <p>Entertainment:
+            <select name="Entertainment" id="Entertainment">
+                <option value="">--Select type of Entertainment--</option>
+                <option value="DJ">DJ</option>
+                <option value="Bagpipe">Bagpipe</option>
+                <option value="Bhangra">Bhangra Dance</option>
+            </select>
+        </p>
+        <p>Caterer:
+            <select name="Caterer" id="Caterer">
+                <option value="">--Select type of Caterer--</option>
+                <option value="Create your own">Create your own</option>
+                <option value="Indian">Indian</option>
+                <option value="Chinese">Chinese</option>
+                <option value="French">French</option>
+            </select>
+        </p>
+        <p>Vintage Car:
+            <select name="Vintage Car" id="Vintage car">
+                <option value="">--Select vintage car you like--</option>
+                <option value="None">None</option>
+                <option value="Fordearly">Ford Early V8 1935</option>
+                <option value="Chevrolet">Chevrolet Pheaton 1927</option>
+                <option value="Ford">Ford Model A 1930</option>
+                <option value="Dodge">Dodge brother 1929</option>
+                <option value="Desoto">De-Soto 1929 Golden</option>
+            </select>
+        </p>
+
+        <fieldset>
+            <legend>Female Bartender</legend>
+            <p>
+                <input type="radio" name="bartender" id=""> Yes
+                <br>  
+                <input type="radio" name="bartender" id=""> No
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Wedding Band</legend>
+            <p>
+                <input type="radio" name="Band" id=""> Yes
+                <br>  
+                <input type="radio" name="Band" id=""> No
+            </p>
+        </fieldset>
+
+        <input type="Submit" value="Submit">
+        <!-- <hr> -->
+    </body>
+</html>
